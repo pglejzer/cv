@@ -140,20 +140,18 @@
             .work__trenton {
                 display: flex;
                 flex-direction: column;
-
                 .work__company {
                     padding: 10px 0;
-                    margin-top:10px;
+                    margin-top: 10px;
                     margin-bottom: 10px;
                     .work__company--span {
                         font-size: 15px;
                         font-weight: 400;
                     }
                 }
-                .work__company--bg{
-
-                                    background: rgb(55, 93, 126);
-                padding: 6px;
+                .work__company--bg {
+                    background: rgb(55, 93, 126);
+                    padding: 6px;
                 }
                 .work__times {
                     display: flex;
@@ -178,16 +176,15 @@
                         margin-left: 20px;
                         .work__li {}
                     }
-                    .work__ul--education{
+                    .work__ul--education {
                         list-style: none;
-                        margin-left:0px;
+                        margin-left: 0px;
                     }
                 }
-                .work__about--interes{
-                    padding-left:62px;
+                .work__about--interes {
+                    padding-left: 62px;
                 }
             }
-
             .work__hr--middle {
                 margin-top: 10px;
             }
