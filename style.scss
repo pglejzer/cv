@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+* {
+    // font-family: 'Arimo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 15px;
+    color: #fff;
+    background-color: rgb(69, 75, 87);
+    margin: 30px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    .about__title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .about__h1 {
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .about__p {
+            margin-bottom: 12px;
+            font-weight: 400;
+        }
+        .about__img {
+            border-radius: 10px;
+            border: 2px solid black;
+            width: 200px;
+            height: 220px;
+        }
+    }
+    .about__me {
+        .about__date {
+            background: rgb(50, 57, 63);
+            margin: 10px auto;
+            padding: 6px;
+            .about__data {
+                text-align: center;
+            }
+        }
+        .about__details {
+            font-size: 15px;
+            margin: 10px 0;
+            .about__details--span {
+                font-weight: 300;
+                letter-spacing: 0.5px;
+                padding: 210px 0;
+            }
+        }
+    }
+    .about__skills {
+        .about__date {
+            background: rgb(50, 57, 63);
+            margin: 10px auto;
+            padding: 6px;
+            .about__data {
+                text-align: center;
+            }
+        }
+        .about__information {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    .about__media {
+        .about__date {
+            background: rgb(50, 57, 63);
+            margin: 10px auto;
+            padding: 6px;
+            .about__data {
+                text-align: center;
+            }
+        }
+        .about__linkedin {
+            display: flex;
+            flex-direction: column;
+            .about__font {
+                display: flex;
+                flex-direction: row;
+                .fab {
+                    font-size: 30px;
+                    color:rgb(0,118,181);
+                }
+                .fa-github{
+                    color:rgb(0,0,0);
+                }
+                .fa-facebook{
+                    color:rgb(66,103,178);
+                }
+                .about__h5--lnkedin {
+                    font-size: 20px;
+                    margin-left:8px;
+                }
+            }
+            .about__links {
+                margin: 5px 0;
+                .about__link {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
