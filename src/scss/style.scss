@@ -17,11 +17,11 @@
         flex-direction: column;
         min-width: 300px;
         padding: 15px;
-        border-radius: 7px;
+        border-radius: 4px;
         margin: 0 30px 0 0;
         margin-right: 10px;
         color: #fff;
-         background-image: linear-gradient(to right bottom, #0d0a5c, #002367, #00346a, #004268, #104e64);
+        background-image: linear-gradient(10deg,#1800b3,#000087);
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
         .about__title {
             display: flex;
@@ -46,7 +46,7 @@
         }
         .about__me {
             .about__date {
-                 background-image: linear-gradient(to right bottom, #0053cf, #0053cf, #0074bc, #0053cf, #0053cf);
+                background-image: linear-gradient(10deg,#5413e4,#3800d7);
                 margin: 10px -15px 10px -15px;
                 padding: 6px;
                 .about__data {
@@ -65,7 +65,7 @@
         }
         .about__skills {
             .about__date {
-                 background-image: linear-gradient(to right bottom, #0053cf, #0053cf, #0074bc, #0053cf, #0053cf);
+                background-image: linear-gradient(10deg,#5413e4,#3800d7);
                 margin: 10px -15px 10px -15px;
                 padding: 6px;
                 .about__data {
@@ -103,8 +103,9 @@
                 .fa-sass {
                     color: pink;
                 }
-                .fa-github {
-                    color: #000;
+                .fa-git {
+                    color: orange;
+                    background-color: transparent;
                 }
                 .fa-gulp {
                     color: red;
@@ -142,7 +143,7 @@
         }
         .about__media {
             .about__date {
-                 background-image: linear-gradient(to right bottom, #0053cf, #0053cf, #0074bc, #0053cf, #0053cf);
+                background-image: linear-gradient(10deg,#5413e4,#3800d7);
                 margin: 10px -15px 10px -15px;
                 padding: 6px;
                 .about__data {
@@ -178,18 +179,19 @@
             }
         }
     }
+
     .work {
         max-width: 600px;
         border-radius: 7px;
         padding: 15px;
         color: #fff;
-         background-image: linear-gradient(to right bottom, #0d0a5c, #002367, #00346a, #004268, #104e64);
+         background-image: linear-gradient(10deg,#1800b3,#000087);
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
         .work__text {
             font-size: 14px;
         }
         .work__mainexp {
-             background-image: linear-gradient(to right bottom, #0053cf, #0053cf, #0074bc, #0053cf, #0053cf);
+            background-image: linear-gradient(10deg,#5413e4,#3800d7);
             margin: 5px -15px 5px -15px;
             .work__title {
                 padding: 10px 0;
@@ -204,7 +206,7 @@
                 flex-direction: column;
                 margin-top: 5px;
                 .work__company--bg {
-                     background-image: linear-gradient(to right bottom, #0053cf, #0053cf, #0074bc, #0053cf, #0053cf);
+                    background-image: linear-gradient(10deg,#5413e4,#3800d7);
                     margin: 8px -15px 5px -15px;
                     .work__company {
                         font-size: 15px;
