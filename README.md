@@ -1,1 +1,1 @@
-Live : https://pglejzer.github.io/cv/src
+Live : https://pglejzer.github.io/cv/dist
