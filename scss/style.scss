@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+$white: #ffF;
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 4px;
+        margin-right: 10px;
+        color: #fff;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+        background-image: linear-gradient(10deg, #1800b3, #000087);
+
+        .about__title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .about__h1 {
+                font-size: 30px;
+                margin-bottom: 10px;
+                font-weight: 600;
+                color: $white !important;
+            }
+
+            .about__p {
+                margin-bottom: 12px;
+                font-weight: 400;
+            }
+
+            .about__img {
+                border-radius: 10px;
+                border: 2px solid rgb(0, 0, 0);
+                width: 200px;
+                height: 250px;
+            }
+        }
+
+        .about__me {
+            .about__date {
+                background-image: linear-gradient(10deg, #5413e4, #3800d7);
+                margin: 10px -15px 10px -15px;
+                padding: 6px;
+
+                .about__data {
+                    text-align: center;
+                }
+            }
+
+            .about__details {
+                font-size: 15px;
+                margin: 10px 0;
+
+                .about__details--span {
+                    font-weight: 300;
+                    letter-spacing: 0.5px;
+                    padding: 210px 0;
+                }
+            }
+        }
+
+        .about__skills {
+            .about__date {
+                background-image: linear-gradient(10deg, #5413e4, #3800d7);
+                margin: 10px -15px 10px -15px;
+                padding: 6px;
+
+                .about__data {
+                    text-align: center;
+                }
+            }
+
+            .about__information {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .about__container {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+
+                    .about__img {
+                        width: 15px;
+                        height: 20px;
+                    }
+
+                    .about__img--jq {
+                        height: 15px;
+                    }
+                }
+
+                .fab {
+                    margin-top: 3px;
+                }
+
+                .fa-html5 {
+                    color: lightblue;
+                }
+
+                .fa-css3-alt {
+                    color: orange;
+                }
+
+                .fa-js-square {
+                    color: yellow;
+                }
+
+                .fa-sass {
+                    color: pink;
+                }
+
+                .fa-git {
+                    color: orange;
+                    background-color: transparent;
+                }
+
+                .fa-gulp {
+                    color: red;
+                    margin-left: 4px;
+                }
+
+                .fa-windows {
+                    color: blue;
+                }
+
+                .fa-car {
+                    color: grey;
+                }
+
+                .about__text {
+                    margin-left: 13px;
+                    font-size: 15px;
+                }
+
+                .about__text--boot,
+                .about__text--av,
+                .about__text--off {
+                    margin-left: 11px;
+                }
+
+                .about__text--sass {
+                    margin-left: 7px;
+                }
+
+                .about__text--git,
+                .about__text--car {
+                    margin-left: 10px;
+                }
+
+                .about__stars {
+
+                    .fas,
+                    .far {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+
+        .about__media {
+            .about__date {
+                background-image: linear-gradient(10deg, #5413e4, #3800d7);
+                margin: 10px -15px 10px -15px;
+                padding: 6px;
+
+                .about__data {
+                    text-align: center;
+                }
+            }
+
+            .about__linkedin {
+                display: flex;
+                flex-direction: column;
+
+                .about__font {
+                    display: flex;
+                    flex-direction: row;
+
+                    .fab {
+                        font-size: 30px;
+                        color: rgb(0, 118, 181);
+                    }
+
+                    .fa-github {
+                        color: rgb(0, 0, 0);
+                    }
+
+                    .about__h5--lnkedin {
+                        font-size: 20px;
+                        margin-left: 8px;
+                    }
+                }
+
+                .about__links {
+                    margin: 5px 0;
+
+                    .about__link {
+                        color: #fff;
+                        text-decoration: none;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .work {
+        max-width: 600px;
+        border-radius: 7px;
+        padding: 15px;
+        color: #fff;
+        background-image: linear-gradient(10deg, #1800b3, #000087);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+
+        .work__text {
+            font-size: 14px;
+        }
+
+        .work__mainexp {
+            background-image: linear-gradient(10deg, #5413e4, #3800d7);
+            margin: 5px -15px 5px -15px;
+
+            .work__title {
+                padding: 10px 0;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 40px;
+            }
+        }
+
+        .work__exp {
+            .work__trenton {
+                display: flex;
+                flex-direction: column;
+                margin-top: 5px;
+
+                .work__company--bg {
+                    background-image: linear-gradient(10deg, #5413e4, #3800d7);
+                    margin: 7px -15px 5px -15px;
+
+                    .work__company {
+                        font-size: 15px;
+                        padding: 7px 40px;
+                    }
+                }
+
+                .work__company--span {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+
+            .work__company--perm {
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            .work__times {
+                display: flex;
+                flex-direction: row;
+                padding-top: 5px;
+
+                .work__time {
+                    font-size: 14px;
+                    margin-top: 50px;
+                }
+                .work__time-usa{
+                    margin-top:20px;
+                }
+                .work__time-study{
+                    margin-top: 35px;
+                }
+
+            }
+
+            .work__times-usa {
+                display: flex;
+                flex-direction: column;
+                margin-top: 10px;
+            }
+
+            .work__about {
+                margin-left: 20px;
+
+                .work__address {
+                    font-size: 15px;
+                }
+
+                .work__company--res {
+                    padding-bottom: 5px;
+                }
+
+                .work__comapny--adress {
+                    padding-bottom: 5px;
+                }
+
+                .work__ul {
+                    margin-left: 20px;
+                }
+
+                .work__ul--education {
+                    list-style: none;
+                    padding: 10px 0;
+                }
+            }
+
+            .work__about--interes {
+                padding-left: 62px;
+            }
+        }
+
+        .work__hr--middle {
+            margin-top: 10px;
+        }
+
+        .footer {
+            margin-top: 5px;
+
+            .footer__p {
+                font-size: 8px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .main {
+        display: block;
+
+        .about {
+            margin: 5px;
+        }
+
+        .work {
+            max-width: 100%;
+            margin: 5px;
+        }
+    }
+}
