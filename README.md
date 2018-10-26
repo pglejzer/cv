@@ -10,7 +10,7 @@ This is prd version with no scripts.
 ### Prerequisites
 
 Basic knowledge of HTML/CSS/JS is required to use it.
-Created with HTML, CSS, SASS, metology BEM, Vanilla JS.
+Created with HTML, CSS, SASS, metology BEM.
 
 ## Authors
 
