@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Curriculum vitae
 
 Curriculum vitae of Piotr Glejzer.
@@ -25,3 +26,5 @@ This project is licensed under the MIT License.
 * [flaticon](https://www.flaticon.com/free-icon/avocado_184517) - Icon of avocode created by [freepik](https://www.flaticon.com/authors/freepik)
 * [iconfinder](https://www.iconfinder.com/icons/282807/jquery_icon) - jQuery icon
 * [icons8](https://pl.icons8.com/icon/set/bootstrap/all) - Bootstrap icon
+=======
+>>>>>>> dbbbcdd3ee3f56d58b43d01871f4b909941c93a1
