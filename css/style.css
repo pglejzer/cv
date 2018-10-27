@@ -5,6 +5,12 @@
   margin: 0;
   padding: 0; }
 
+@page {
+  size: auto;
+  /* auto is the initial value */
+  margin: 10px;
+  /* this affects the margin in the printer settings */ }
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,9 +67,9 @@
         width: 200px;
         height: 250px; }
     .main .about .about__me .about__date {
-      background-image: -webkit-linear-gradient(80deg, #5413e4, #3800d7);
-      background-image: -o-linear-gradient(80deg, #5413e4, #3800d7);
-      background-image: linear-gradient(10deg, #5413e4, #3800d7);
+      background-image: -webkit-linear-gradient(80deg, #5413e4, #6800E1);
+      background-image: -o-linear-gradient(80deg, #5413e4, #6800E1);
+      background-image: linear-gradient(10deg, #5413e4, #6800E1);
       margin: 10px -15px 10px -15px;
       padding: 6px; }
       .main .about .about__me .about__date .about__data {
@@ -76,9 +82,9 @@
         letter-spacing: 0.5px;
         padding: 210px 0; }
     .main .about .about__skills .about__date {
-      background-image: -webkit-linear-gradient(80deg, #5413e4, #3800d7);
-      background-image: -o-linear-gradient(80deg, #5413e4, #3800d7);
-      background-image: linear-gradient(10deg, #5413e4, #3800d7);
+      background-image: -webkit-linear-gradient(80deg, #5413e4, #6800E1);
+      background-image: -o-linear-gradient(80deg, #5413e4, #6800E1);
+      background-image: linear-gradient(10deg, #5413e4, #6800E1);
       margin: 10px -15px 10px -15px;
       padding: 6px; }
       .main .about .about__skills .about__date .about__data {
@@ -131,8 +137,7 @@
       .main .about .about__skills .about__information .fa-car {
         color: grey; }
       .main .about .about__skills .about__information .about__text {
-        margin-left: 13px;
-        font-size: 15px; }
+        margin-left: 13px; }
       .main .about .about__skills .about__information .about__text--boot,
       .main .about .about__skills .about__information .about__text--av,
       .main .about .about__skills .about__information .about__text--off {
@@ -146,9 +151,9 @@
       .main .about .about__skills .about__information .about__stars .far {
         font-size: 10px; }
     .main .about .about__media .about__date {
-      background-image: -webkit-linear-gradient(80deg, #5413e4, #3800d7);
-      background-image: -o-linear-gradient(80deg, #5413e4, #3800d7);
-      background-image: linear-gradient(10deg, #5413e4, #3800d7);
+      background-image: -webkit-linear-gradient(80deg, #5413e4, #6800E1);
+      background-image: -o-linear-gradient(80deg, #5413e4, #6800E1);
+      background-image: linear-gradient(10deg, #5413e4, #6800E1);
       margin: 10px -15px 10px -15px;
       padding: 6px; }
       .main .about .about__media .about__date .about__data {
@@ -196,9 +201,9 @@
     .main .work .work__text {
       font-size: 14px; }
     .main .work .work__mainexp {
-      background-image: -webkit-linear-gradient(80deg, #5413e4, #3800d7);
-      background-image: -o-linear-gradient(80deg, #5413e4, #3800d7);
-      background-image: linear-gradient(10deg, #5413e4, #3800d7);
+      background-image: -webkit-linear-gradient(80deg, #5413e4, #6800E1);
+      background-image: -o-linear-gradient(80deg, #5413e4, #6800E1);
+      background-image: linear-gradient(10deg, #5413e4, #6800E1);
       margin: 5px -15px 5px -15px; }
       .main .work .work__mainexp .work__title {
         padding: 10px 0;
@@ -215,15 +220,13 @@
       flex-direction: column;
       margin-top: 5px; }
       .main .work .work__exp .work__trenton .work__company--bg {
-        background-image: -webkit-linear-gradient(80deg, #5413e4, #3800d7);
-        background-image: -o-linear-gradient(80deg, #5413e4, #3800d7);
-        background-image: linear-gradient(10deg, #5413e4, #3800d7);
+        background-image: -webkit-linear-gradient(80deg, #5413e4, #6800E1);
+        background-image: -o-linear-gradient(80deg, #5413e4, #6800E1);
+        background-image: linear-gradient(10deg, #5413e4, #6800E1);
         margin: 7px -15px 5px -15px; }
         .main .work .work__exp .work__trenton .work__company--bg .work__company {
-          font-size: 15px;
           padding: 7px 40px; }
       .main .work .work__exp .work__trenton .work__company--span {
-        font-size: 15px;
         font-weight: 400; }
     .main .work .work__exp .work__company--perm {
       font-size: 14px;
@@ -255,8 +258,11 @@
       margin-top: 10px; }
     .main .work .work__exp .work__about {
       margin-left: 20px; }
-      .main .work .work__exp .work__about .work__address {
-        font-size: 15px; }
+      .main .work .work__exp .work__about .work__english {
+        width: 30px;
+        height: 100%;
+        position: relative;
+        top: 8px; }
       .main .work .work__exp .work__about .work__company--res {
         padding-bottom: 5px; }
       .main .work .work__exp .work__about .work__comapny--adress {

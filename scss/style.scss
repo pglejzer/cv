@@ -9,6 +9,13 @@ $white: #ffF;
     padding: 0;
 }
 
+@page {
+    size: auto;
+    /* auto is the initial value */
+    margin: 10px;
+    /* this affects the margin in the printer settings */
+}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -52,7 +59,7 @@ $white: #ffF;
 
         .about__me {
             .about__date {
-                background-image: linear-gradient(10deg, #5413e4, #3800d7);
+                background-image: linear-gradient(10deg, #5413e4, #6800E1);
                 margin: 10px -15px 10px -15px;
                 padding: 6px;
 
@@ -75,7 +82,7 @@ $white: #ffF;
 
         .about__skills {
             .about__date {
-                background-image: linear-gradient(10deg, #5413e4, #3800d7);
+                background-image: linear-gradient(10deg, #5413e4, #6800E1);
                 margin: 10px -15px 10px -15px;
                 padding: 6px;
 
@@ -144,7 +151,6 @@ $white: #ffF;
 
                 .about__text {
                     margin-left: 13px;
-                    font-size: 15px;
                 }
 
                 .about__text--boot,
@@ -174,7 +180,7 @@ $white: #ffF;
 
         .about__media {
             .about__date {
-                background-image: linear-gradient(10deg, #5413e4, #3800d7);
+                background-image: linear-gradient(10deg, #5413e4, #6800E1);
                 margin: 10px -15px 10px -15px;
                 padding: 6px;
 
@@ -232,7 +238,7 @@ $white: #ffF;
         }
 
         .work__mainexp {
-            background-image: linear-gradient(10deg, #5413e4, #3800d7);
+            background-image: linear-gradient(10deg, #5413e4, #6800E1);
             margin: 5px -15px 5px -15px;
 
             .work__title {
@@ -250,17 +256,15 @@ $white: #ffF;
                 margin-top: 5px;
 
                 .work__company--bg {
-                    background-image: linear-gradient(10deg, #5413e4, #3800d7);
+                    background-image: linear-gradient(10deg, #5413e4, #6800E1);
                     margin: 7px -15px 5px -15px;
 
                     .work__company {
-                        font-size: 15px;
                         padding: 7px 40px;
                     }
                 }
 
                 .work__company--span {
-                    font-size: 15px;
                     font-weight: 400;
                 }
             }
@@ -279,10 +283,12 @@ $white: #ffF;
                     font-size: 14px;
                     margin-top: 50px;
                 }
-                .work__time-usa{
-                    margin-top:20px;
+
+                .work__time-usa {
+                    margin-top: 20px;
                 }
-                .work__time-study{
+
+                .work__time-study {
                     margin-top: 35px;
                 }
 
@@ -297,8 +303,11 @@ $white: #ffF;
             .work__about {
                 margin-left: 20px;
 
-                .work__address {
-                    font-size: 15px;
+                .work__english {
+                    width: 30px;
+                    height: 100%;
+                    position: relative;
+                    top: 8px;
                 }
 
                 .work__company--res {
