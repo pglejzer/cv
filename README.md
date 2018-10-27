@@ -5,12 +5,12 @@ Curriculum vitae of Piotr Glejzer.
 ## Getting Started
 
 This is prd version with no scripts.
-[Live version ](https://pglejzer.github.io/cv/dist/)
+[Live version ](https://pglejzer.github.io/cv/)
 
 ### Prerequisites
 
 Basic knowledge of HTML/CSS/JS is required to use it.
-Created with HTML, CSS, SASS, metology BEM, Vanilla JS.
+Created with HTML, CSS, SASS, metology BEM.
 
 ## Authors
 
