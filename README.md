@@ -5,7 +5,7 @@ Curriculum vitae of Piotr Glejzer.
 ## Getting Started
 
 This is prd version with no scripts.
-[Live version ](https://pglejzer.github.io/cv/)
+[Live version ](https://pglejzer.pl/cv/)
 
 ### Prerequisites
 
