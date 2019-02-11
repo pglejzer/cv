@@ -1,0 +1,17 @@
+{
+    "headers": ["Dane kontaktowe", "Umiejętności", "Social media"],
+    "personData": ["Data urodzenia", "Numer telefonu", "Adres email", "Miejsce urodzenia"],
+    "skills": {
+        "good": ["dobre"],
+        "basic": ["podstawowe"],
+        "advanced": ["zaawansowane"]
+    },
+    "worksHeaders": ["Doświadczenie", " Edukacja", "Zainteresowania", "Języki obce"],
+    "warsawPlace": "- Warszawa, Polska",
+    "presently": "obecnie",
+    "aboutMeFirst": "Jestem młodszym deweloperem, który nie boi się trudnych wyzwań i stara się co dzień wykonywać powierzoną pracę z satysfakcją i pasją.",
+    "aboutMesecond": "Każdego dnia chcę uczynić świat lepszym miejscem. Staram sie pisać zrozumiały i czytelny kod dla każdego. Jestem osbą wyrozumiała, cierpiliwą oraz bezkonfliktową.",
+    "jobsAndOther": ["Programista", "Wsparcie techniczne", "Web designer", "Web developer", "Przygotywanie jedzenia", "Wydawanie jedzenia", "Pomoc klientom", "Uzupełnianie towaru", "Tytuł: Inżynier", "Specjalność: konstrukcje budowlane", "Programowanie", "Psychologia", "Sport", "Podróże", "Fantastyka naukowa", "Gry komputerowe", "Komiksy", "średnio-zaawansowany"],
+    "jobsTitle": ["Front-end developer", "Pracownik restauracji", "Wyższa Szkoła Ekologii i Zarządzania w Warszawie", "Angielski"],
+    "permision": ["Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)). Wyrażam zgodę na przetwarzanie moich danych osobowych w zakresie przyszłych procesów rekrutacyjnych."]
+}

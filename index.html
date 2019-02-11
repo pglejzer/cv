@@ -2,252 +2,308 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width,initial-scale=1" name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <link href="css/style.min.css" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
-    <title>CV - Piotr Glejzer</title>
+  <meta charset="UTF-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" rel="stylesheet">
+  <title>CV - Piotr Glejzer</title>
 </head>
 
 <body>
-    <section class="main">
-        <section class="about">
-            <div class="about__title">
-                <h1 class="about__h1">Piotr Glejzer</h1>
-                <p class="about__p">Junior Front-End Developer</p><img alt="my photo" class="about__img" src="img/DSC_4886-smaller.jpg">
+  <div class="container">
+
+    <div class="wrapper">
+      <button class="burger">
+        <div class="burger-lines">
+          <span class="burger-line burger-line__top"></span>
+          <span class="burger-line burger-line__middle"></span>
+          <span class="burger-line burger-line__bottom"></span>
+        </div>
+      </button>
+    </div>
+
+    <div class="button-wrapper">
+      <div class="button-with-text">
+        <button type="button" id="polish-menu" class="button btn-polish"></button>
+      </div>
+      <div class="button-with-text">
+        <button type="button" id="english-menu" class="button btn-english"></button>
+      </div>
+    </div>
+
+    <main class="main">
+      <section class="about">
+        <div class="about__title">
+          <h1 class="about__h1">Piotr Glejzer</h1>
+          <p class="about__p">Junior Front-End Developer</p><img alt="my photo" class="about__img" src="img/DSC_4886-smaller.jpg">
+        </div>
+        <div class="about__me">
+          <div class="about__date">
+            <h3 class="about__data">Personal data</h3>
+          </div>
+          <h6 class="about__details">
+            <div class="about__column">
+              <i class="fas fa-birthday-cake"></i>
+              <p class="about__properties">Date of birth</p>
             </div>
-            <div class="about__me">
-                <div class="about__date">
-                    <h3 class="about__data">Personal data</h3>
-                </div>
-                <h6 class="about__details"><i class="fas fa-birthday-cake"></i> Date of birth&colon;<br><span class="about__details--span">04.02.1992</span></h6>
-                <h6 class="about__details"><i class="fas fa-mobile-alt"></i> Phone number&colon;<br><span class="about__details--span">+48
-                        693 544 399</span></h6>
-                <h6 class="about__details"><i class="far fa-envelope-open"></i> Email address&colon;<br><span class="about__details--span">glejzerpiotr@gmail.com</span></h6>
-                <h6 class="about__details"><i class="fas fa-map-marker-alt"></i> Place of residence&colon;<br><span
-                        class="about__details--span">Skierniewice</span></h6>
+            <span class="about__details--span">04.02.1992</span>
+          </h6>
+          <h6 class="about__details">
+            <div class="about__column">
+              <i class="fas fa-mobile-alt"></i>
+              <p class="about__properties">Phone number</p>
             </div>
-            <div class="about__skills">
-                <div class="about__date">
-                    <h3 class="about__data">Skills</h3>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><i class="fab fa-html5"></i>
-                        <p class="about__text">HTML5</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fa-star fas"></i>
-                        <i class="fa-star far"></i> <i class="fa-star far"></i></div>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><i class="fab fa-css3-alt"></i>
-                        <p class="about__text">CSS3</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fa-star fas"></i>
-                        <i class="fa-star far"></i> <i class="fa-star far"></i></div>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><i class="fab fa-js-square"></i>
-                        <p class="about__text">JavaScript</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fas fa-star-half"></i>
-                        <i class="fa-star far"></i> <i class="fa-star far"></i></div>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><img alt="boostrap icon" class="about__img about__img--jq" src="img/if_jquery_282807.png">
-                        <p class="about__text">jQuery</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fa-star far"></i>
-                        <i class="fa-star far"></i> <i class="fa-star far"></i></div>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><img alt="boostrap icon" class="about__img" src="img/seeicons__57e90b703eba6.png">
-                        <p class="about__text about__text--boot">Bootstrap</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fa-star fas"></i>
-                        <i class="fa-star far"></i> <i class="fa-star far"></i></div>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><i class="fab fa-sass"></i>
-                        <p class="about__text about__text--sass">SASS</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fa-star fas"></i>
-                        <i class="fa-star far"></i> <i class="fa-star far"></i></div>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><i class="fab fa-git"></i>
-                        <p class="about__text about__text--git">GIT</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fa-star far"></i>
-                        <i class="fa-star far"></i> <i class="fa-star far"></i></div>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><i class="fab fa-gulp"></i>
-                        <p class="about__text">Gulp</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fa-star far"></i>
-                        <i class="fa-star far"></i> <i class="fa-star far"></i></div>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><img alt="avocode" class="about__img" src="img/avocado.svg">
-                        <p class="about__text about__text--av">Avocode</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fa-star far"></i>
-                        <i class="fa-star far"></i> <i class="fa-star far"></i></div>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><i class="fab fa-windows"></i>
-                        <p class="about__text about__text--off">Microsoft Office</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fa-star fas"></i>
-                        <i class="fa-star far"></i> <i class="fa-star far"></i></div>
-                </div>
-                <div class="about__information">
-                    <div class="about__container"><i class="fas fa-car"></i>
-                        <p class="about__text about__text--car">Driver license</p>
-                    </div>
-                    <div class="about__stars"><i class="fa-star fas"></i> <i class="fa-star fas"></i> <i class="fa-star fas"></i>
-                        <i class="fa-star fas"></i> <i class="fa-star fas"></i></div>
-                </div>
+            <span class="about__details--span">+48 693 544 399</span>
+          </h6>
+          <h6 class="about__details">
+            <div class="about__column">
+              <i class="far fa-envelope-open"></i>
+              <p class="about__properties">Email address</p>
             </div>
-            <div class="about__media">
-                <div class="about__date">
-                    <h3 class="about__data">Social media</h3>
-                </div>
-                <div class="about__linkedin">
-                    <div class="about__font"><i class="fab fa-linkedin"></i>
-                        <h5 class="about__h5--lnkedin">Linkedin&colon;</h5>
-                    </div>
-                    <div class="about__links"><a class="about__link" href="">https://www.linkedin.com/in/piotr-glejzer/</a></div>
-                </div>
-                <div class="about__linkedin">
-                    <div class="about__font"><i class="fab fa-github"></i>
-                        <h5 class="about__h5--lnkedin">Github&colon;</h5>
-                    </div>
-                    <div class="about__links"><a class="about__link" href="">https://github.com/pglejzer</a></div>
-                </div>
+            <span class="about__details--span"> glejzerpiotr@gmail.com</span>
+          </h6>
+          <h6 class="about__details">
+            <div class="about__column">
+              <i class="fas fa-map-marker-alt"></i>
+              <p class="about__properties">Place of residence</p>
             </div>
-        </section>
-        <section class="work">
-            <p class="work__text">I'm junior front-end developer which don't afraid of difficult challenges and try do
-                the best every day entrusted job with satisfaction and with passion.</p>
-            <p class="work__text">Every day I want make world better place just because I'm trying write clean and easy
-                code for everybody. I'm a helpful and understanding person.</p>
-            <div class="work__mainexp">
-                <h3 class="work__title">Experience</h3>
+            <span class="about__details--span"> Skierniewice</span>
+          </h6>
+        </div>
+        <div class="about__skills">
+          <div class="about__date">
+            <h3 class="about__data">Skills</h3>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <i class="fab fa-html5"></i>
+              <p class="about__text">HTML5</p>
             </div>
-            <div class="work__exp">
-                <div class="work__trenton">
-                    <h4 class="work__company">Material Design for Bootstrap <span class="work__company--span">&nbsp;-
-                            Warsaw, Poland&nbsp;</span></h4>
-                    <div class="work__times">
-                        <p class="work__time">06.2018 - presently
-                            <div class="work__about">
-                                <h4 class="work__company--res">Front-end developer </h4>
-                                <ul class="work__ul">
-                                    <li class="work__link">Programmer.</li>
-                                    <li class="work__link">Supporter.</li>
-                                    <li class="work__link">Web designer.</li>
-                                    <li class="work__link">Web developer.</li>
-                                </ul>
-                            </div>
-                    </div>
-                </div>
-                <hr class="work__hr--middle">
-                <div class="work__trenton">
-                    <h4 class="work__company">Trenton Bridge Lobster Pound <span class="work__company--span">&nbsp;-&nbsp;
-                            Trenton, USA</span></h4>
-                    <div class="work__times">
-                        <div class="work__times-usa">
-                            <p class="work__time work__time-usa">06.2016 - 10.2016</p>
-                            <p class="work__time work__time-usa">06.2015 - 10.2015</p>
-                        </div>
-                        <div class="work__about">
-                            <h4 class="work__company--res">Kitchen worker</h4>
-                            <ul class="work__ul">
-                                <li class="work__link">Preparing food.</li>
-                                <li class="work__link">Serving food.</li>
-                                <li class="work__link">Helped customers.</li>
-                                <li class="work__link">Replenishment of goods.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <hr class="work__hr--middle">
-                <div class="work__trenton">
-                    <h4 class="work__company">IDEA - BUD Grzegorz Sobiesiak <span class="work__company--span">&nbsp;-&nbsp;Gluchow,
-                            Poland</span></h4>
-                    <div class="work__times">
-                        <p class="work__time">06.2014 - 07.2014</p>
-                        <div class="work__about">
-                            <h4 class="work__company--res">Student practice</h4>
-                            <ul class="work__ul">
-                                <li class="work__link">Bricklayer assistance.</li>
-                                <li class="work__link">Help with grinding works.</li>
-                                <li class="work__link">Help in the construction of stairs, roof, ceiling and annex.</li>
-                                <li class="work__link">Preparation of mortars.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="work__trenton">
-                    <div class="work__company--bg">
-                        <h3 class="work__company">Education</h3>
-                    </div>
-                    <div class="work__times">
-                        <p class="work__time work__time-study">10.2012 - 05.2017</p>
-                        <div class="work__about">
-                            <h4 class="work__company--res">College of Ecology and Management in Warsaw</h4>
-                            <ul class="work__ul work__ul--education">
-                                <li class="work__link">Title&colon; Engineer</li>
-                                <li class="work__link">Specialty&colon; bulding structures</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="work__trenton">
-                    <div class="work__company--bg">
-                        <h3 class="work__company">Interests</h3>
-                    </div>
-                    <div class="work__times">
-                        <div class="work__about work__about--interes">
-                            <ul class="work__ul work__ul--education">
-                                <li class="work__link">Programming</li>
-                                <li class="work__link">Psychology</li>
-                                <li class="work__link">Sport</li>
-                                <li class="work__link">Travels</li>
-                                <li class="work__link">Science fiction</li>
-                                <li class="work__link">Computer games</li>
-                                <li class="work__link">Comics</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="work__trenton">
-                    <div class="work__company--bg">
-                        <h3 class="work__company">Foreign Languages</h3>
-                    </div>
-                    <div class="work__times">
-                        <div class="work__about work__about--interes">
-                            <h4> <img class="work__english" src="img/English-Language-Flag-1-icon.png" alt="english flag">
-                                English</h4>
-                            <ul class="work__ul work__ul--education">
-                                <li class="work__link">intermediate</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="about__level">
+              <p class="about__level--type">good</p>
             </div>
-            <footer class="footer">
-                <p class="footer__p">"Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w mojej
-                    ofercie
-                    pracy dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z ustawą z dnia 29
-                    sierpnia
-                    1997 r. o ochronie danych osobowych (Dz. U. z 2002 r. Nr 101, poz. 926, ze zm.)"</p>
-            </footer>
-        </section>
-    </section>
-    <script src="js/script.js"></script>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <i class="fab fa-css3-alt"></i>
+              <p class="about__text">CSS3</p>
+            </div>
+            <div class="about__level">
+              <p class="about__level--type">good</p>
+            </div>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <i class="fab fa-js-square"></i>
+              <p class="about__text">JavaScript</p>
+            </div>
+            <div class="about__level">
+              <p class="about__level--type">good</p>
+            </div>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <img alt="jquery icon" class="about__img about__img--jq" src="img/if_jquery_282807.png">
+              <p class="about__text">jQuery</p>
+            </div>
+            <div class="about__level">
+              <p class="about__level--type">good</p>
+            </div>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <img alt="boostrap icon" class="about__img" src="img/seeicons__57e90b703eba6.png">
+              <p class="about__text about__text--boot">Bootstrap</p>
+
+            </div>
+            <div class="about__level">
+              <p class="about__level--type">good</p>
+            </div>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <i class="fab fa-react"></i>
+              <p class="about__text about__text--react about__text--car">React</p>
+            </div>
+            <div class="about__level">
+              <p class="about__level--type">basic</p>
+            </div>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <i class="fab fa-php"></i>
+              <p class="about__text about__text--car">PHP</p>
+            </div>
+            <div class="about__level">
+              <p class="about__level--type">basic</p>
+            </div>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <i class="fas fa-database"></i>
+              <p class="about__text about__text--car">MySQL</p>
+            </div>
+            <div class="about__level">
+              <p class="about__level--type">basic</p>
+            </div>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <i class="fab fa-sass"></i>
+              <p class="about__text about__text--sass">SASS</p>
+            </div>
+            <div class="about__level">
+              <p class="about__level--type">good</p>
+            </div>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <i class="fab fa-git"></i>
+              <p class="about__text about__text--git">GIT</p>
+            </div>
+            <div class="about__level">
+              <p class="about__level--type">good</p>
+            </div>
+          </div>
+          <div class="about_information">
+            <div class="about__container">
+              <i class="fab fa-gulp"></i>
+              <p class="about__text">Gulp</p>
+            </div>
+            <div class="about__level">
+              <p class="about__level--type">good</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="about__media">
+          <div class="about__date">
+            <h3 class="about__data">Social media</h3>
+          </div>
+          <div class="about__linkedin">
+            <div class="about__font"><i class="fab fa-linkedin"></i>
+              <h5 class="about__h5--lnkedin">Linkedin</h5>
+            </div>
+            <div class="about__links">
+              <a class="about__link" href="https://www.linkedin.com/in/piotr-glejzer/" target="_blank">https://www.linkedin.com/in/piotr-glejzer/</a>
+            </div>
+          </div>
+          <div class="about__linkedin">
+            <div class="about__font"><i class="fab fa-github"></i>
+              <h5 class="about__h5--lnkedin">Github</h5>
+            </div>
+            <div class="about__links">
+              <a class="about__link" href="https://github.com/pglejzer" target="_blank">https://github.com/pglejzer</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work">
+        <p class="work__text work__text--first">I'm junior front-end developer which don't afraid of difficult
+          challenges
+          and try do
+          the best every day entrusted job with satisfaction and with passion.</p>
+        <p class="work__text work__text--second">Every day I try to make world better place. I try write clean and
+          understandable code for everyone with accurate precision. I am a understanding, patient and conflict-free
+          person.</p>
+        <div class="work__mainexp">
+          <h3 class="work__title work__company--check">Experience</h3>
+        </div>
+        <div class="work__exp">
+          <div class="work__trenton">
+            <h4 class="work__company">Material Design for Bootstrap <span class="work__company--span"> -
+                Warsaw, Poland</span></h4>
+            <div class="work__times">
+              <p class="work__time">06.2018 - <span class="work__presently">presently</span> </p>
+              <div class="work__about">
+                <h4 class="work__company--res">Front-end developer</h4>
+                <ul class="work__ul">
+                  <li class="work__link">Programmer.</li>
+                  <li class="work__link">Supporter.</li>
+                  <li class="work__link">Web designer.</li>
+                  <li class="work__link">Web developer.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr class="work__hr--middle">
+          <div class="work__trenton">
+            <h4 class="work__company">Trenton Bridge Lobster Pound <span class="work__company--span">-
+                Trenton, USA</span></h4>
+            <div class="work__times">
+              <div class="work__times-usa">
+                <p class="work__time work__time-usa">06.2016 - 10.2016</p>
+                <p class="work__time work__time-usa">06.2015 - 10.2015</p>
+              </div>
+              <div class="work__about">
+                <h4 class="work__company--res">Kitchen worker</h4>
+                <ul class="work__ul">
+                  <li class="work__link">Preparing food.</li>
+                  <li class="work__link">Serving food.</li>
+                  <li class="work__link">Helped customers.</li>
+                  <li class="work__link">Replenishment of goods.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="work__trenton">
+            <div class="work__company--bg">
+              <h3 class="work__company work__company--check">Education</h3>
+            </div>
+            <div class="work__times">
+              <p class="work__time work__time-study">10.2012 - 05.2017</p>
+              <div class="work__about">
+                <h4 class="work__company--res">College of Ecology and Management in Warsaw</h4>
+                <ul class="work__ul work__ul--education">
+                  <li class="work__link">Title: Engineer</li>
+                  <li class="work__link">Specialty: bulding structures</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="work__trenton">
+            <div class="work__company--bg">
+              <h3 class="work__company work__company--check">Interests</h3>
+            </div>
+            <div class="work__times">
+              <div class="work__about work__about--interes">
+                <ul class="work__ul work__ul--education">
+                  <li class="work__link">Programming</li>
+                  <li class="work__link">Psychology</li>
+                  <li class="work__link">Sport</li>
+                  <li class="work__link">Travels</li>
+                  <li class="work__link">Science fiction</li>
+                  <li class="work__link">Computer games</li>
+                  <li class="work__link">Comics</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="work__trenton">
+            <div class="work__company--bg">
+              <h3 class="work__company work__company--check">Foreign Languages</h3>
+            </div>
+            <div class="work__times">
+              <div class="work__about work__about--interes">
+                <h4> <img class="work__english" src="img/English-Language-Flag-1-icon.png" alt="english flag">
+                  <span class="work__company--res">English</span></h4>
+                <ul class="work__ul work__ul--education">
+                  <li class="work__link">intermediate</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <p class="footer__p">I hereby consent to my personal data being processed by () for the purpose of
+            considering my application for the vacancy advertised under reference number (123XX6 etc.)</p>
+        </footer>
+      </section>
+    </main>
+
+  </div>
+  <script src="../../src/js/script.js"></script>
 </body>
 
 </html>
